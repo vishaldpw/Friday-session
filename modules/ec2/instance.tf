@@ -18,6 +18,6 @@ resource "aws_instance" "jenkins" {
   instance_type = "t2.micro"
   key_name      = "black-Bottle"
   tags = {
-    Name = "jenkins"
+    Name = var.name9
   }
 }

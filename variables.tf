@@ -21,6 +21,3 @@ variable "name2" {
   type = string
 }
 
-variable "name9" {
-  type = string
-}
