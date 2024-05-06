@@ -1,3 +1,3 @@
-# module "jenkins" {
-#   source = "./modules/ec2"
-# }
+ module "jenkins" {
+   source = "./modules/ec2"
+ }
