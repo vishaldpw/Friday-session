@@ -6,3 +6,4 @@ terraform.tfstate.backup
 black-Bottle.pem
 terraform.log
 ansible.tar
+backend.tf
