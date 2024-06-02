@@ -25,7 +25,7 @@ resource "aws_instance" "web" {
       "sudo apt update",
       "sudo apt install -y ansible",
       "sudo hostnamectl set-hostname ansible",
-      "sudo reboot"
+      #"sudo reboot"
     ]
   }
   provisioner "file" {
